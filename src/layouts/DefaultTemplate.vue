@@ -11,11 +11,10 @@
 </template>
 
 <script>
-import { onBeforeMount } from '@vue/runtime-core'
+import { onBeforeMount } from 'vue'
 
 import HeaderComponent from './components/HeaderComponent.vue'
 import FooterComponent from './components/FooterComponent.vue'
-
 
 export default {
     name: 'DefaultTemplate',
